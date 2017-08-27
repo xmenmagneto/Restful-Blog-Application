@@ -14,7 +14,7 @@
                         <span><%=blog.created.toDateString()%></span>
                     </div>
                     <div class="description">
-                        <p><%- blog.body.substring(0, 100)%>...</p>
+                        <p><%= blog.body.substring(0, 100)%>...</p>
                     </div>
                     <div class="extra">
                         <a class="ui floated basic teal button" href="/blogs/<%=blog._id%>">Read More<i class="small right chevron icon"></i></a>
